@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LOC]">
+  <listeners>
+    <listener class-name="mobiotics.lco.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="mobiotics.lco.testCases.Add_A_Al_Carte_Pack_006">
+        <methods>
+          <include name="setUp"/>
+          <include name="activateAddAlA_Carte"/>
+        </methods>
+      </class> <!-- mobiotics.lco.testCases.Add_A_Al_Carte_Pack_006 -->
+      <class name="mobiotics.lco.testCases.Select_Broadcast_Plane_005">
+        <methods>
+          <include name="add_BroadCast_Pay"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- mobiotics.lco.testCases.Select_Broadcast_Plane_005 -->
+      <class name="mobiotics.lco.testCases.TC_ActivationReport_012">
+        <methods>
+          <include name="setUp"/>
+          <include name="ActivationReport"/>
+        </methods>
+      </class> <!-- mobiotics.lco.testCases.TC_ActivationReport_012 -->
+      <class name="mobiotics.lco.testCases.Activate_Indigital_pay_Bouquet_004">
+        <methods>
+          <include name="Activate_Indigital_Plane"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- mobiotics.lco.testCases.Activate_Indigital_pay_Bouquet_004 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [LOC] -->

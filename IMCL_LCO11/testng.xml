@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LOC">
+
+
+<listeners>
+	<listener class-name="mobiotics.lco.utilities.Reporting" />
+
+</listeners>
+  <test thread-count="5" name="Test">			
+  
+  <!--  <parameter name="browser" value="chrome"/> -->
+    <classes>
+      <class name="mobiotics.lco.testCases.TC_LoginTest_001"/> 
+      
+      <!--  --><class name="mobiotics.lco.testCases.TC_NavigateToAlertPage_002"/>
+      
+	 <!-- --><class name="mobiotics.lco.testCases.TC_ActivateBasePlane_003"/>  
+      
+      <!-- --> <class name="mobiotics.lco.testCases.Activate_Indigital_pay_Bouquet_004"/>  
+       
+      <!-- -->  <class name="mobiotics.lco.testCases.Select_Broadcast_Plane_005"/>
+      
+      <!--  --> <class name="mobiotics.lco.testCases.Add_A_Al_Carte_Pack_006"/>
+      
+       <!--   --><class name="mobiotics.lco.testCases.TC_ActivationReport_012"/>
+       
+        <class name="mobiotics.lco.testCases.TC_RenewPage_007"/>  
+       
+       <!-- <class name="mobiotics.lco.testCases.TC_DisconnectPlane_008"/>  -->
+       
+       <!-- <class name="mobiotics.lco.testCases.TC_Reconnect_009"/>    -->
+       
+       <!-- <class name="mobiotics.lco.testCases.TC_ChangeBasePack_010"/>  --> 
+        
+        <!--  <class name="mobiotics.lco.testCases.TC_Credit_11"/> --> 
+       
+       
+         
+        <!-- <class name="mobiotics.lco.testCases.TC_ExpiryReport_013"/> -->  
+           
+         <!--  <class name="mobiotics.lco.testCases.TC_ExpiredReport_014"/>--> 
+             
+         <!-- <class name="mobiotics.lco.testCases.TC_STBReplacement_015"/> --> 
+           
+         <!-- <class name="mobiotics.lco.testCases.TC_ModifyCustomer_016"/> -->   
+           
+          <!--  <class name="mobiotics.lco.testCases.TC_Ticket_017"/> -->
+          
+          <!-- <class name="mobiotics.lco.testCases.TC_BulkRenew_018"/>  -->
+          
+           <!--  <class name="mobiotics.lco.testCases.TC_BulkAddBroadCasterPay_019"/>  -->
+       
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
